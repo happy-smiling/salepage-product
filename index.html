@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sale Page</title>
+		<link href="assets/css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <header>
+            <nav class="navbar navbar-expand-lg container">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.jpg" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Toy</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sustainability</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Sustainability Report 2022</a></li>
+                                    <li><a class="dropdown-item" href="#">PlayCycle</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Membership</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Affililate Program</a></li>
+                                    <li><a class="dropdown-item" href="#">Promotion</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Mission</a></li>
+                                    <li><a class="dropdown-item" href="#">History</a></li>
+                                    <li><a class="dropdown-item" href="#">Awards</a></li>
+                                    <li><a class="dropdown-item" href="#">Forest of Play</a></li>
+                                    <li><a class="dropdown-item" href="#">New</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Report a problem</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Worldwide Office</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <a href="#"><i class="fa fa-search padding-icon"></i></a>
+                            <a href="#"><i class="fa-regular fa-user padding-icon"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart padding-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="col">
+                            <img id="current-image" src="assets/images/victorian-dollhouse-1.jpg" alt="Victorian Dollhouse">
+                        </div>
+                        <div class="col padding-center">
+                            <div id="image-thumbs"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 padding-20">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1 class="title">Victorian Dollhouse</h1>
+                            </div>
+                            <div class="col-md-4 center padding-box-heart">
+                                <h2 class="text-price">11,400.00 ฿</h2>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" id="sub" class="sub btn-mins">
+                                <i class="fa-sharp fa-solid fa-minus"></i>
+                            </button>
+                            <input class="center" type="number" value="1" min="1" max="9999" />
+                            <button type="button" id="add" class="add btn-add">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                        <div class="padding-box">
+                            <h4 class="text-description">Description</h4>
+                            <p class="text-detail">This dollhouse has 3 floors including the attic. Each floor is accessible with opening panels and realistic sashes that slide open and shut. Additional attic space can also be made into any kind of room your child desires .</p>
+                            <ul class="text-detail">
+                                <li>Suitable for ages 3 years and older</li>
+                                <li>The most popular PlanToys dollhouse available with 3 floors (including an attic), opening panels and functional sashes that slide open and shut</li>
+                                <li>Compatible with all other PlanToys dollhouses and furniture. Made to 1:12 Scale</li>
+                                <li>Sustainably made in Thailand using chemical-free rubberwood, formaldehyde-free glue, organic pigments and water-based dyes.</li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <h4 class="text-age">3Yrs+</h4>
+                            </div>
+                            <div class="col-8">
+                                <p class="text-sku" >SKU: 7124</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/Pretend_Play_icon.png" class="image-recommend">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/Carbon_Green_icon_no_text.png" class="image-recommend margin-img">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/d42a5ff4a6a85da21f9912a84ca1568a.svg" class="margin-img2 image-kid" alt="creative">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/06b24dc6cd80323ae4da7fbd294d589e.svg" class="margin-img image-kid" alt="imagination">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/efc491a0ab22ac43b037f2429d8bd3ee.svg" class="margin-img image-kid" alt="social">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/714f361e8b2d195474e261711f5640db.svg" class="margin-img image-kid" alt="language & communication">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/e8bd70bfed32c88b9f74f857884e59b3.svg" class="margin-img image-kid" alt="coordination">
+                                <img src="https://s3-us-west-2.amazonaws.com/catsy.803/47621b62278cbcb370e33e5d9837e7d3.svg" class="margin-img image-kid" alt="emotionnal">
+                            </div>
+                        </div>
+                        <div class="row padding-box">
+                            <div class="col">
+                                <button class="btn-addCart">Add to Cart</button>
+                            </div>
+                            <div class="col">
+                                <button class="btn-buy">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <i class="fa-regular fa-heart padding-icon2"></i>Add to Wishlist
+                            </div>
+                        </div>
+                        <div class="row padding-box">
+                            <div class="col">
+                                <h5>Share</h5>
+                                <a href="#"><i class="fa-brands fa-facebook icon margin-icon2"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram icon margin-icon"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter icon margin-icon"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest icon margin-icon"></i></a>
+                                <a href="#"><i class="fa-brands fa-line icon margin-icon"></i></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row box-detail-product">
+                    <div class="col-lg-6">
+                        <h3 class="topic-play center text-description">How to Play</h3>
+                        <iframe src="https://www.youtube.com/embed/dov60AP8puw?controls=0&loop=1&autoplay=1&mute=1&playlist=dov60AP8puw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="padding-watch center">
+                                <a href="https://youtu.be/dov60AP8puw">
+                                    <button class="btn-watch-youtube">Watch Youtube</button>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 detail-product">
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="menu-topic center" data-id="1">Product Info</h4>
+                            </div>
+                            <div class="col">
+                                <h4 class="menu-topic center" data-id="2">Child Development</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="box-detail" data-id="1">
+                                    <h4 class="menu-topic2">Package Dimension (W x L x H) :</h4>
+                                    <p class="text-detail">29.8 in X 9.13 in X 18.2 in</p>
+                                    <p class="text-detail">75.69 cm X 23.19 cm X 46.2 cm</p>
+                                    <h4 class="menu-topic2">Product Dimension (W x L x H) :</h4>
+                                    <p class="text-detail">24.76 in X 13.19 in X 28.03 in</p>
+                                    <p class="text-detail">62.9 cm X 33.5 cm X 71.2 cm</p>
+                                    <h4 class="menu-topic2">Package Weight :</h4>
+                                    <p class="text-detail">30.33 lb</p>
+                                    <p class="text-detail">13.76 kg</p>
+                                    <p class="text-detail">*The biggest part:</p>
+                                    <p class="text-detail">Side Frame</p>
+                                </div>
+                                <div class="box-detail hidden-box" data-id="2">
+                                    <p class="text-detail">Factors for Child Development:</p>
+                                    <p class="text-detail">Creative</p>
+                                    <p class="text-detail">Imagination</p>
+                                    <p class="text-detail">Social</p>
+                                    <p class="text-detail">Language & Communication</p>
+                                    <p class="text-detail">Coordination</p>
+                                    <p class="text-detail">Emotional</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row box-download">
+                    <div class="col-6 col-md">
+                        <button class="btn-download">
+                            <i class="fa-solid fa-download icon-download center"></i>
+                            <div class="text-download">Test Report (ASTM)</div>
+                        </button>
+                    </div>
+                    <div class="col-6 col-md">
+                        <button class="btn-download">
+                            <i class="fa-solid fa-download icon-download center"></i>
+                            <div class="text-download">Test Report (EN71)</div>
+                        </button>
+                    </div>
+                    <div class="col col-md">
+                        <button class="btn-download">
+                            <i class="fa-solid fa-download icon-download center"></i>
+                            <div class="text-download">Download Assembly Instruction</div>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="box-review">
+                <div class="padding-review">
+                    <h3 class="center">Write a review</h3>
+                    <div class="row">
+                        <form>
+                            <div class="form-group">
+                                <label class="control-label">Review Title</label>
+                                <input type="text" class="form-control" placeholder="Give your review a title"/>
+    
+                                <label class="control-label">Review</label>
+                                <input type="text" class="form-control" placeholder="Write your comments here"/>
+    
+                                <label class=" control-label">Name (displayed publicly like 
+                                    <select id="cars">
+                                        <option label="John Smite">John Smith</option>
+                                        <option label="Jone S.">John S.</option>
+                                        <option label="J.S.">J.S.</option>
+                                        <option label="Anonymous">Anonymous</option>
+                                    </select>
+                                    )
+                                </label>
+                                <input type="text" class="form-control" placeholder="Ennter you name (pubilc)"/>
+    
+                                <label class=" control-label">Email</label>
+                                <input type="text" class="form-control" placeholder="Ennter you email (private)"/>
+    
+                                <button type="submit" class="btn btn-default">SUBMIT REVIEW  <i class="fa fa-arrow-circle-right fa-2x"></i></button>
+                                
+                                <label class=" control-label">Picture/Video (optional)</label>
+                                <div class="image-upload">
+                                    <label for="file-input">
+                                        <img src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/128/Downloads-icon.png"/>
+                                    </label>
+                                    <input id="file-input" type="file" />
+                                    </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 class="center">Recommended for Your Kid</hh2>
+                <div class="scrolling-wrapper">
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/3600_-_Packshot_-_01.png?v=1683174791%0A%20%20%20%20%20%20%20%20" alt="Assorted Fruit Set" class="imgage-product"/>
+                            <div class="other-product"> 
+                                <p class="topic-product">Assorted Fruit Set</p>
+                                <p class="price-product">900.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/Slide1.png?v=1681200930" alt="Maker Club X TK Park" class="imgage-product"/>
+                            <div class="other-product">
+                                <p class="topic-product">Maker Club X TK Park</p>
+                                <p class="price-product">200.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/S2203_-_Packshot_-_01.jpg?v=1682457669%0A%20%20%20%20" alt="Baby Gift Set - Stimulability gross motor set" class="imgage-product"/>
+                            <div class="other-product">
+                                <p class="topic-product">Baby Gift Set <br/>- Stimulability gross motor set</p>
+                                <p class="price-product">1,590.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/1865_-_Packshot_-_01.png?v=1683020139%0A%20%20%20%200" alt="Tuk Tuk" class="imgage-product"/>
+                            <div class="other-product">
+                                <p class="topic-product">Tuk Tuk</p>
+                                <p class="price-product">560.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/8601_-_Packshot_-_01.jpg?v=1682457247%0A%20%20%20%20" alt="Toy Chest" class="imgage-product"/>
+                            <div class="other-product">
+                                <p class="topic-product">Toy Chest</p>
+                                <p class="price-product">3,600.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/3615_-_Packshot_-_01.png?v=1683020259%0A%20%20%20%20" alt="" class="imgage-product"/>
+                            <div class="other-product">
+                                <p class="topic-product">Waffle Set</p>
+                                <p class="price-product">1,350.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/5200_-_Packshot_-_01.jpg?v=1683174456%0A%20%20%20%20%20%20%20%20%20%20%20%20" alt="Penguin Wobbler" class="imgage-product"/>
+                            <div class="other-product">
+                                <p class="topic-product">Penguin Wobbler</p>
+                                <p class="price-product">450.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card box-other-product">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/products/S2202_-_Packshot_-_01.jpg?v=1682457712%0A%20%20%20%20%20%20%20%20%20%20%20%20" alt="Baby Gift Set - Stimulability auditory set" class="imgage-product"/>
+                            <div class="other-product">
+                                <p class="topic-product">Baby Gift Set <br/> - Stimulability auditory set</p>
+                                <p class="price-product">1,650.00 ฿</p>
+                            </div>
+                        </a>
+                    </div>
+                  </div>
+            </section>
+        </main>
+        <footer class="box-footer">
+            <div class="row">
+                <div class="col-lg-12 center">
+                    <div class="section-title">
+                        <h2>Join PlanToys Family!</h2>
+                        <p class="text-footer">To receive News, Exclusive Promotion, and become PlanToys Family.</p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email Address" id="email" required="">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <button class="btn-download2">
+                                    <div class="text-footer">Sian Up</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row padding-box-footer">
+                    <div class="col-sm-12 col-lg-2 col-xl-2 center">
+                        <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/t/171/assets/PlanToys_logo_grey.webp?v=158575592754433761311683436074" alt="plantoys" class="logo-plantoy center"/>
+                        <div class="desciption-footer">Better Kids, Better World <br/> through Sustainable Play</div>
+                        <div class="padding-box-footer">
+                            <div class="topic-footer">Follow Us</div>
+                            <div class="text-footer">We hear your concerns</div>
+                            <a href="#"><i class="fa-brands fa-twitter icon-share"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook icon-share"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram icon-share"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube icon-share"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok icon-share"></i></a>
+                            <a href="#"><i class="fa-brands fa-line icon-share"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 col-xl-3 padding-footer-mobile">
+                        <h4 class="topic-footer">Shop By Categories</h4>
+                        <div class="row">
+                            <div class="col">
+                                <div class="text-footer"><a href="#">Active Play</a></div>
+                                <div class="text-footer"><a href="#">Body</a></div>
+                                <div class="text-footer"><a href="#">Better Aging</a></div>
+                                <div class="text-footer"><a href="#">Blocks & Construction</a></div>
+                                <div class="text-footer"><a href="#">Games & Puzzles</a></div>
+                                <div class="text-footer"><a href="#">Learning & Education</a></div>
+                            </div>
+                            <div class="col">
+                                <div class="text-footer"><a href="#">Music</a></div>
+                                <div class="text-footer"><a href="#">PlanHome</a></div>
+                                <div class="text-footer"><a href="#">PlanMini</a></div>
+                                <div class="text-footer"><a href="#">Pretend Play</a></div>
+                                <div class="text-footer"><a href="#">Push & Pull</a></div>
+                                <div class="text-footer"><a href="#">Water Play</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-lg-2 col-xl-2 padding-footer-mobile">
+                        <h4 class="topic-footer">Shop and Learn</h4>
+                        <div class="text-footer"><a href="#">Toys</a></div>
+                        <div class="text-footer"><a href="#">Child Development</a></div>
+                        <div class="text-footer"><a href="#">Blog</a></div>
+                        <div class="text-footer"><a href="#">Membership</a></div>
+                        <div class="text-footer"><a href="#">FAQ</a></div>
+                    </div>
+                    <div class="col-6 col-sm-2 col-lg-2 col-xl-2 padding-footer-mobile">
+                        <h4 class="topic-footer">About PlanToys</h4>
+                        <div class="text-footer"><a href="#">About Us</a></div>
+                        <div class="text-footer"><a href="#">Misson</a></div>
+                        <div class="text-footer"><a href="#">Sustainability</a></div>
+                        <div class="text-footer"><a href="#">History</a></div>
+                        <div class="text-footer"><a href="#">Awards</a></div>
+                        <div class="text-footer"><a href="#">Worldwide Office</a></div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 col-xl-3">
+                        <h4 class="topic-footer">PlanToys Catalogue</h4>
+                        <div class="text-footer">View the Product Catalogue.</div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn-download2">
+                                    <div class="text-footer">View Online</div>
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn-download2">
+                                    <div class="text-footer">Download PDF</div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="padding-box-footer2">
+                            <div class="topic-footer">Certification</div>
+                            <div class="text-footer">issued by trusted certificate authorities.</div>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/t/171/assets/cer-logo-1.webp?v=72208531059876679801683436074" alt="certificate-01" class="logo-cer"/>
+                                    <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/t/171/assets/cer-logo-2.webp?v=57237992888969515561683436074" alt="certificate-02" class="logo-cer"/>
+                                    <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/t/171/assets/cer-logo-3.webp?v=44846471832996019681683436074" alt="certificate-03" class="logo-cer"/>
+                                    <img src="https://cdn.shopify.com/s/files/1/0550/2913/7495/t/171/assets/cer-logo-4.webp?v=46539910694552074631683436074" alt="certificate-04" class="logo-cer"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-footer center">Copyright © 2023 Plantoys.com All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+	</body>
+</html>
+
+

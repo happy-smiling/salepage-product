@@ -1,0 +1,706 @@
+body{
+    font-family: 'Secular One', sans-serif;
+}
+
+.nav-item , .padding-icon{
+    padding: 10px;
+}
+
+.container , .padding-box2{
+    padding: 40px 0;
+}
+
+button.navbar-toggler:focus , .btn-addCart , .btn-buy{
+    outline: none;
+}
+
+button.navbar-toggler:focus , form .btn{
+    border: none;
+}
+
+button.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+p , .padding-icon , .padding-icon2 , .icon , .icon-download , .icon-share , .text-footer a{
+    color: black;
+}
+
+a:link , .btn-watch-youtube , .btn-download , .btn-download2 , .btn-add , .btn-mins{
+    text-decoration: none;
+}
+
+.title{
+    font-size: 28px;
+}
+
+.title , .text-footer{
+    padding: 5px 0;
+}
+
+.text-price{
+    font-size: 24px;
+    text-align: right;
+}
+
+.padding-icon , .padding-icon2 , .icon , .icon-download , .btn-addCart , .btn-buy , .thumb , 
+.btn-watch-youtube , .btn-download , .btn-download2 , .btn-add , .btn-mins , .box-other-product , .icon-share{
+    cursor: pointer;
+}
+
+.topic-product , .icon-share , .padding-icon , .padding-icon2{
+    font-size: 20px;
+}
+
+.padding-icon2{
+    padding: 10px 10px 10px 0;
+}
+
+.icon , .icon-download , form .heading{
+    font-size: 35px;
+}
+
+.icon-download{
+    padding-bottom: 10px;
+}
+
+.margin-icon , .logo-cer{
+    margin: 0 10px;
+}
+
+.margin-icon2{
+    margin-right: 10px;
+}
+
+.padding-box-heart , .padding-box-footer2{
+    padding: 10px 0;
+}
+
+.center , .btn-addCart , .btn-buy .padding-watch{
+    text-align: center;
+}
+
+.btn-addCart , .btn-buy{
+  appearance: button;
+  color: #FFFFFF;
+  letter-spacing: .8px;
+  line-height: 20px;
+  overflow: visible;
+  padding: 12px 16px;
+  transform: translateZ(0);
+  transition: filter .2s;
+}
+
+.btn-addCart , .btn-buy , .btn-addCart:after , .btn-buy:after{
+    border: solid transparent;
+    border-width: 0 0 4px;
+}
+
+.btn-addCart , .btn-buy , .btn-addCart:after , .btn-buy:after , .btn-download , .btn-download2{
+    border-radius: 16px;
+}
+
+.btn-addCart , .btn-buy , form .form-footer{
+    display: inline-block;
+}
+
+.btn-addCart , .btn-buy , form .heading , form .btn{
+    text-transform: uppercase;
+}
+
+.btn-addCart , .btn-buy , .btn-watch-youtube , .btn-download , .btn-download2 , .btn-add , .btn-mins{
+    touch-action: manipulation;
+}
+
+iframe , .btn-addCart , .btn-buy , .btn-download , .btn-download2 , .imgage-product , .form-bg:before{
+    width: 100%;
+}
+
+.btn-addCart:after , .btn-buy:after{
+    background-clip: padding-box;
+    bottom: -4px;
+    right: 0;
+    z-index: -1;
+}
+
+.btn-addCart:after , .btn-buy:after , .form-bg:before , form .btn , form .btn .fa{
+    position: absolute;
+}
+
+.btn-addCart:after , .btn-buy:after , .form-bg:before{
+    left: 0;
+    top: 0;
+    content: "";
+}
+
+.btn-addCart , .btn-buy , .btn-watch-youtube , .btn-download , .btn-download2 , .btn-add , .btn-mins{
+    box-sizing: border-box;
+}
+
+.btn-addCart{
+    background-color: #2cfffb;
+}
+
+.btn-buy{
+    background-color: #8cff82;
+}
+
+.btn-addCart:after{
+    background-color: #1CB0F6;
+}
+
+.btn-buy:after{
+    background-color: #08ca53;
+}
+
+.btn-addCart:main, .btn-addCart:focus , .btn-buy:main, .btn-buy:focus{
+    user-select: auto;
+}
+
+.btn-addCart:hover:not(:disabled) , .btn-buy:hover:not(:disabled){
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.btn-addCart:disabled , .btn-buy:disabled{
+    cursor: auto;
+}
+
+.margin-img{
+    margin: 10px;
+}
+
+.margin-img2{
+    margin: 10px 10px 10px 0;
+}
+
+.image-kid , .logo-cer , .logo-plantoy , form .form-control{
+    height: 50px;
+}
+
+.image-recommend{
+    height: 60px;
+}
+
+.image-kid , .image-recommend , .btn-add , .btn-mins{
+    width: 50px;
+}
+
+.padding-box{
+    padding: 15px 0;
+}
+
+#current-image{ 
+    width: 80%;
+}
+
+#current-image , .form-bg:before{ 
+    display: block;
+}
+
+.thumb{ 
+    height: 80px; 
+    object-fit: cover; 
+    margin: 15px; 
+}
+
+.padding-center , #current-image{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-topic{
+    border-bottom: 2px solid rgba(88, 88, 91, 0.2);
+}
+
+.box-detail-product{
+    padding: 70px 0;
+}
+
+.detail-product{
+    padding-left: 18px;
+}
+
+.topic-play , .menu-topic{
+    padding-bottom: 20px;
+}
+
+.box-detail , .scrolling-wrapper , .padding-box-footer{
+    padding: 20px 0;
+}
+
+iframe{
+    height: 359px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.btn-watch-youtube{
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    color: #36395A;
+    display: inline-flex;
+    height: 48px;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    text-align: left;
+    transition: box-shadow .15s,transform .15s;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    width: 40%;
+}
+
+.btn-watch-youtube , .box-other-product , form .form-group{
+    position: relative;
+}
+
+.btn-watch-youtube , .btn-download , .btn-download2 , .btn-add , .btn-mins{
+    justify-content: center;
+}
+  
+.btn-watch-youtube:focus{
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.btn-watch-youtube:hover{
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.btn-watch-youtube:active{
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.btn-download , .btn-download2 , .btn-add , .btn-mins{
+    background-color: rgba(240, 240, 240, 0.26);
+    border: 1px solid #DFDFDF;
+    color: #000000;
+    line-height: 28px;
+    max-width: 100%;
+    transition: all .2s;
+}
+
+.btn-download {
+    padding: 14px 22px;
+}
+
+.btn-download:active, .btn-download:hover , .btn-download2:active, .btn-download2:hover , 
+.btn-add:active , .btn-add:hover , .btn-mins:active , .btn-mins:hover{
+    outline: 0;
+}
+
+.btn-download:hover , .btn-download2:hover , .btn-add:hover , .btn-mins:hover{
+    border-color: rgba(0, 0, 0, 0.19);
+}
+
+.box-other-product , .btn-download:hover , .btn-download2:hover , .btn-add:hover , .btn-mins:hover{
+    background-color: #FFFFFF;
+}
+
+.box-download{
+    padding: 0px 70px 50px 70px;
+}
+
+.text-download , .price-product , form .form-control{
+    font-size: 16px;
+}
+
+.box-review{
+    margin: 70px 0;
+}
+
+.box-review , .box-footer{
+    background-color: #f5f5f5;
+}
+
+.other-product{
+    padding-top: 20px;
+}
+
+.other-product , .topic-footer{
+    font-size: 15px;
+}
+
+.box-other-product{
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 1.25;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    transition: all 250ms;
+}
+
+.box-other-product:hover, .box-other-productt:focus{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.box-other-product:hover{
+    transform: translateY(-1px);
+}
+
+.box-other-product:active{
+    background-color: #F0F0F1;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.box-other-product:hover, .box-other-productt:focus , .box-other-product:active{
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.scrolling-wrapper{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .card {
+      display: inline-block;
+      border: 0;
+      width: 25%;
+    }
+}
+
+.scrolling-wrapper::-webkit-scrollbar , .hidden-box , .image-upload > input {
+    display: none;
+}
+
+
+.box-footer{
+    padding: 40px 0 0 20px;
+}
+
+.logo-cer , .logo-plantoy{
+    width: 40px;
+}
+
+.topic-product , .topic-footer , .desciption-footer , form .heading , form .btn {
+    font-weight: bold;
+}
+
+.text-footer{
+    font-size: 12px;
+}
+
+.desciption-footer{
+    font-size: 13px;
+    padding-top: 5px
+}
+
+.section-title{
+    padding: 0 25%;
+}
+
+.form-bg:before{
+    height: 100%;
+    background: linear-gradient(#2cd0cb,#a280c1);
+    opacity: 0.95;
+}
+
+.padding-review{
+    padding: 50px 30%;
+}
+
+form{
+    margin: 5% 0;
+}
+
+form .heading{
+    margin-left: -20px;
+}
+
+form .heading , form .btn , form .form-footer a , form .form-footer{  
+    color: #fff;
+}
+
+form .form-group{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #bcb4b4;
+}
+
+form .form-group , form .btn:hover{
+    background: #fff;
+}
+
+form .control-label{
+    font-size: 18px;
+    color: #6e6179;
+}
+
+form .form-control{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #8f8597;
+    border-radius: 2px;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+form .heading , form .control-label , form .form-control{
+    letter-spacing: 1px;
+}
+
+form .btn{
+    font-size: 17px;
+    background: #00d3bf;
+    box-shadow: 0 0 8px 0 #a2a2a2;
+    border-radius: 50px;
+    padding: 12px 60px 12px 15px;
+    bottom: -6%;
+    right: -4%;
+    transition: all 0.2s ease 0s;
+}
+
+form .btn:hover{
+    color: #00d3bf;
+}
+
+form .btn .fa{
+    font-size: 38px;
+    top: 5px;
+    right: 7px;
+}
+
+form .form-footer{
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+form .form-footer , form .form-footer a{
+    font-size: 14px;
+}
+
+form .form-footer a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width : 576px) {
+    #current-image{
+        width: 50%;
+    }
+
+    .thumb{
+        height: 50px; 
+    }
+
+    .padding-20{
+        padding: 20px;
+    }
+
+    .text-price{
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .title{
+        font-size: 22px;
+    }
+
+    .text-sku , .text-detail{
+        font-size: 16px;
+    }
+
+    .menu-topic , .menu-topic2{
+        font-size: 15px;
+    }
+
+    .text-description , .text-age{
+        font-size: 20px;
+    }
+
+    .image-kid{
+        height: 35px;
+        width: 35px;
+    }
+
+    .padding-center{
+        text-align: center;
+    }
+
+    .margin-img{
+       margin: 5px;
+    }
+
+    .icon{
+        font-size: 30px;
+    }
+
+    .margin-icon{
+        margin: 0 5px;
+    }
+    
+    .margin-icon2{
+        margin-right: 5px;
+    }
+
+    .box-detail-product{
+        padding: 30px 0;
+    }
+    .padding-watch{
+        padding-bottom: 80px;
+    }
+
+    .btn-watch-youtube{
+        width: 80%;
+    }
+
+    .box-download{
+        padding: 0px;
+    }
+
+    .btn-download , .thumb{
+        margin: 10px;
+    }
+
+    .btn-download{
+        padding: 10px;
+    }
+
+    .icon-download{
+        font-size: 25px;
+    }
+
+    .padding-footer-mobile{
+        padding: 20px 0;
+    }
+
+    .topic-footer{
+        font-size: 14px;
+    }
+
+    .text-footer{
+        font-size: 12px;
+    }
+
+    .scrolling-wrapper{
+        .card {
+          width: 50%;
+        }
+    }
+
+    .padding-review{
+        padding: 30px 10px 50px;
+    }
+
+}
+
+@media (min-width : 576px) and (max-width : 768px) {
+    #current-image{
+        width: 50%;
+    }
+    .padding-20{
+        padding: 20px;
+    }
+    .box-detail-product{
+        padding: 40px 0;
+    }
+    .padding-watch{
+        padding-bottom: 80px;
+    }
+
+    .box-download{
+        padding: 0px;
+    }
+
+    .desciption-footer{
+        font-size: 10px;
+    }
+    
+    .topic-footer{
+        font-size: 12px;
+    }
+    
+    .text-footer{
+        font-size: 8px;
+    }
+
+    .logo-cer{
+        margin: 0 4px;
+    }
+
+    .padding-review{
+        padding: 30px 10%;
+    }
+
+    .topic-product{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 768px){
+    .btn-download {
+        padding: 10px;
+    }
+  
+    .box-download{
+        padding: 0px;
+    }
+    
+    .price-product{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width : 1100px) {
+    .desciption-footer{
+        font-size: 10px;
+    }
+
+    .text-footer{
+        font-size: 8px;
+    }
+
+    .logo-cer{
+        margin: 0 4px;
+    }
+
+    .topic-product{
+        font-size: 13px;
+    }
+    
+    .topic-footer, .price-product{
+        font-size: 12px;
+    }
+    
+    .padding-review{
+        padding: 30px 15% 50px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    form .heading{ 
+        margin-left: 0; 
+    }
+
+    form .btn{ 
+        right: -10px; 
+    }
+
+    form .btn .fa{
+        top: 7px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    form .heading{
+        font-size: 22px;
+    }
+
+    form .btn{
+        padding: 7px 37px 6px 15px; 
+    }
+
+    form .btn .fa{ 
+        font-size: 24px; 
+    }
+}
